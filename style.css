@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: white;
+  overflow: hidden;
+}
+
+section.dyet_wrapper {
+  height: 100%;
+  width: 100%;
+  background: #212529;
+}
+
+.dyet {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 40px;
+  margin-left: -100px;
+  margin-top: -100px;
+  color: #ffe066;
+  background: rgba(255, 255, 255, .0);
+  opacity: 1;
+}
+
+.decay {
+  color: #868e96;
+  top: 90%;
+  opacity: 0;
+  transition: color 600ms ease-out,
+              opacity 1600ms ease-in-out, 
+              top 1500ms ease-in-out;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff9db;
+}
+
+footer * {
+  vertical-align: middle;
+}
+
+footer a {
+  color: #ffe066;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}

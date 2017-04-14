@@ -43,7 +43,7 @@ function dyet()
   function getEmote()
   {
     var eyes = [':', ';', '='],
-        noses = ['*', '^', '-', '~', '˙', '·', '`'],
+        noses = ['*', '^', '-', '~', '˙', '·', '`', '"'],
         mouth = 'Đ'
     
     var eye = eyes[Math.floor(Math.random() * eyes.length)], 
